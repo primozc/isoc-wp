@@ -21,6 +21,7 @@ are available for free.
 
 If you would like to see the theme in action, the following sites use it:
 
+* http://www.internetsociety.org/deploy360/  (ISOC Deploy360 Programme)
 * http://danyork.me/isoc-chapter/  (Sample site used in theme development)
 * http://www.isoc.org.bd/dhaka/    (ISOC Chapter in Dhaka, Bangladesh)
 * http://isocindiachennai.org/     (ISOC Chapter in Chennai, India)
@@ -77,15 +78,22 @@ The initial installation of the theme involves the following steps:
 already have a theme using that same directory name, bad things will happen.
 The safest plan would be to remove the previous theme using that directory name.
 
-To begin, you need to download a ZIP file for the latest version of the theme 
-from this URL under the heading "Download Packages":
+To begin, you need to download a ZIP (or tar.gz) file for the latest version of the theme 
+from this URL from the "Releases" page:
 
-> <https://github.com/InternetSociety/isoc-wp/downloads>
+> <https://github.com/InternetSociety/isoc-wp/releases>
 
-> **IMPORTANT** - Click on the *name* of the file (in the format
-"isoc-wp-*version*.zip") to download the theme. Do **not** click on the 
-"Download as zip" button near the top of the page as that will give you 
-the latest *development* version of the theme and will use a different directory name.
+> **WARNING* - **The "Releases" page does NOT yet include the "1.2" release that is
+explained in this page and the accompanying tutorial.**  That release will be put up 
+there tentatively on November 25, 2013.  These instructions are being updated in
+advance of the release.
+
+> **IMPORTANT** - In order for some of the sample code to work in this documentation, 
+you should click on "Theme download (zip)" in order to download a version of the theme that 
+unzips into a folder called simply "isoc-wp".  If you choose the other buttons marked 
+"Source code" it will unzip into a folder called "isoc-wp-<version>". This will work 
+with WordPress, but some of the examples here will need to be modified. It's easier if
+you just have the folder/directory named "isoc-wp". 
 
 Next, in your WordPress admin area (or Network Admin if you are using WordPress
 MultiSite) do the following:
