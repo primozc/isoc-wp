@@ -1,5 +1,5 @@
 // JavaScript Document
-$(function() {
+jQuery(function ($) {
 
 	$("#s").val('search');
 	$('#s').focus(function() {
